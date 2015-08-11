@@ -1,0 +1,26 @@
+{
+    "name": "TDLM GitHub Tools",
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "description": "A few tools for GitHub",
+    "page_action": {},
+    "content_scripts": [
+        {
+            "js": [
+                "jquery.min.js",
+                "background.js"
+            ],
+            "css": [
+              "background.css"
+            ],
+            "matches": [
+                "http://github.com/*",
+                "https://github.com/*"
+            ]
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "https://github.com/*"
+    ]
+}
