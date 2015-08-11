@@ -1,5 +1,7 @@
 {
     "name": "TDLM GitHub Tools",
+    "author": "Scott Weaver",
+    "homepage_url": "http://scottmw.com/",
     "manifest_version": 2,
     "version": "1.0.0",
     "description": "A few tools for GitHub",
